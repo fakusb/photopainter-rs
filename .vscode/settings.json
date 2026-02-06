@@ -1,0 +1,15 @@
+{
+    "editor.formatOnSave": true,
+    "[toml]": {
+        "editor.formatOnSave": false
+    },
+    "rust-analyzer.cargo.target": "thumbv6m-none-eabi",
+    "rust-analyzer.check.allTargets": false,
+    "rust-analyzer.linkedProjects": [
+        "Cargo.toml",
+    ],
+    "rust-analyzer.diagnostics.disabled": [
+        "unresolved-proc-macro"
+    ],
+    "cortex-debug.variableUseNaturalFormat": false
+}
